@@ -1,0 +1,149 @@
+html {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+.firstPage{
+    background-image: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%);
+    /* background-image: url(/assets/hulubackground.jpg); */
+    height: 100vh;
+}
+
+.login {
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.loginButton {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: medium;
+}
+
+.try {
+    color: #3DBB3D;
+    font-weight: bold;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.hulu {
+    color: #3DBB3D;
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.watch {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.addons {
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.trialButton {
+    display: flex;
+    justify-content: center;
+}
+
+.trial{
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 265px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.subscribersText {
+    color: darkgrey;
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+    padding: 10px;
+}
+
+.secondPage {
+    background-color: black;
+    height: 100vh;
+}
+
+.inclusions {
+    color: #3DBB3D;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.streamingHeader {
+    color: white;
+    font-weight: 1000;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.streamText {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    padding-top: 10px;
+}
+
+img {
+    height: 200px;
+    width: 280px;
+    z-index: 2;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    color: white;
+}
+
+.tvShows {
+    background-image: url(./assets/bobsburgerscrop.jpg);
+    height: 200px;
+    width: 280px;
+}
+
+.movies {
+    background-image: url(./assets/palmspringscrop.jpg);
+    height: 200px;
+    width: 280px;
+}
+
+.huluOriginals {
+    background-image: url(./assets/littlefirescrop.jpg);
+    height: 200px;
+    width: 280px;
+}
+
+.kids {
+    background-image: url(./assets/trollscrop.jpg);
+    height: 200px;
+    width: 280px;
+}
