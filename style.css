@@ -81,6 +81,46 @@ html {
     padding: 10px;
 }
 
+.disney {
+    height: 120px;
+    background-image: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%);
+    display: flex;
+}
+
+.disneyPicture {
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+p {
+    color: #8bc34a;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bundleText {
+    padding-left: 50px;
+    color: white;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.buttonDiv {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.getBundle {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    height: 60px;
+    width: 170px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
 .secondPage {
     background-color: black;
     height: 150vh;
