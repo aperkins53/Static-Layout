@@ -3,9 +3,12 @@ html {
 }
 
 .firstPage{
-    background-image: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%);
-    /* background-image: url(/assets/hulubackground.jpg); */
+    /* background-image: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%); */
+    background: url(assets/hulubackground.jpg) no-repeat center center;
+    background-size: cover;
     height: 100vh;
+    background-color: rgba(105, 100, 95, 0.5);
+    background-blend-mode: multiply;
 }
 
 .login {
@@ -24,20 +27,17 @@ html {
 }
 
 .try {
-    color: #3DBB3D;
+    color: #8bc34a;
     font-weight: bold;
-    padding-top: 60px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     font-size: small;
 }
 
 .hulu {
-    color: #3DBB3D;
     display: flex;
     justify-content: center;
-    font-size: 120px;
-    font-weight: bold;
 }
 
 .watch {
@@ -47,6 +47,7 @@ html {
     font-weight: bold;
     font-size: x-large;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .addons {
@@ -82,11 +83,11 @@ html {
 
 .secondPage {
     background-color: black;
-    height: 100vh;
+    height: 150vh;
 }
 
 .inclusions {
-    color: #3DBB3D;
+    color: #8bc34a;
     display: flex;
     justify-content: center;
     padding-top: 90px;
@@ -125,25 +126,45 @@ img {
 }
 
 .tvShows {
-    background-image: url(./assets/bobsburgerscrop.jpg);
-    height: 200px;
+    background: url(assets/bobsburgers.png);
+    background-color: rgba(105, 100, 95, 0.5);
+    background-blend-mode: multiply;
+    height: 430px;
     width: 280px;
+    background-size: cover;
 }
 
 .movies {
-    background-image: url(./assets/palmspringscrop.jpg);
-    height: 200px;
+    background: url(assets/palmsprings.jpg);
+    background-color: rgba(105, 100, 95, 0.5);
+    background-blend-mode: multiply;
+    height: 430px;
     width: 280px;
+    background-size: cover;
 }
 
 .huluOriginals {
-    background-image: url(./assets/littlefirescrop.jpg);
-    height: 200px;
+    background: url(assets/littlefires.jpg);
+    background-color: rgba(105, 100, 95, 0.5);
+    background-blend-mode: multiply;
+    height: 430px;
     width: 280px;
+    background-size: cover;
 }
 
 .kids {
-    background-image: url(./assets/trollscrop.jpg);
-    height: 200px;
+    background: url(assets/trolls.jpg);
+    background-color: rgba(105, 100, 95, 0.5);
+    background-blend-mode: multiply;
+    height: 430px;
     width: 280px;
+    background-size: cover;
+}
+
+.smallText {
+    padding-left: 10px;
+}
+
+.largeText {
+    padding-left: 10px;
 }
